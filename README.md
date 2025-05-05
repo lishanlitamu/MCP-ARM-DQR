@@ -4,7 +4,7 @@ An MCP (Model Context Protocol) server for accessing Data Quality Report (DQR) d
 
 ## Usage
 
-### Set up your environment
+### Set up your environment in MaxOS/Linus
 
 _For setup in Windows, please refer to the [official guide](https://modelcontextprotocol.io/quickstart/server)._
 
