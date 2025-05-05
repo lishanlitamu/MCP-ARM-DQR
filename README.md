@@ -4,7 +4,7 @@ An MCP (Model Context Protocol) server for accessing Data Quality Report (DQR) d
 
 ## Usage
 
-### Set up your environment in MaxOS/Linus
+### Set up your environment in MaxOS/Linus.
 
 _For setup in Windows, please refer to the [official guide](https://modelcontextprotocol.io/quickstart/server)._
 
@@ -15,7 +15,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 Restart your terminal after installing `uv`.
 
-### Set up project
+### Set up project.
 ```bash
 # Create a new directory for this project or initialize it with an existing folder
 uv init MCP-ARM-DQR
@@ -44,7 +44,7 @@ To use this server with the Claude Desktop app, click `developer`>`Edit Config` 
 ```json
 {
   "mcpServers": {
-    "arm-live-data": {
+    "arm-dqr": {
       "command": "/usr/local/bin/docker",
       "args": [
         "run",
