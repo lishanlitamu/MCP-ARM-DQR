@@ -1,5 +1,5 @@
 # MCP-ARM-DQR
-An MCP (Model Context Protocol) server for accessing Data Quality Report(DQR) databases from the ARM user facility.
+An MCP (Model Context Protocol) server for accessing Data Quality Report (DQR) database from the ARM user facility.
 
 
 ## Usage
