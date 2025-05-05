@@ -62,7 +62,7 @@ async def query_dqr(
 
 def main():
     """Start the MCP server."""
-    mcp.run()
+    mcp.run("stdio") 
 
 if __name__ == '__main__':
-    main() 
+    main()

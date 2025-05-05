@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen --no-install-project
 
 # Copy the application code into the container
-COPY arm-dqr.py .
+COPY src/arm-dqr.py .
 # If you decided to vendor the 'mcp' package (copying it into shellserver), uncomment the next line:
 # COPY ./mcp ./mcp
 
