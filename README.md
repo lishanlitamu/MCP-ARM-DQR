@@ -37,7 +37,7 @@ docker build -t arm-dqr .
 ```
 
 ### Add this MCP server to Claude Desktop app.
-To use this server with the Claude Desktop app, add the following configuration to the "mcpServers" section of your `claude_desktop_config.json`:
+To use this server with the Claude Desktop app, click `developer`>`Edit Config` and add the following configuration to the "mcpServers" section of your `claude_desktop_config.json`:
 
 <img src="./images/claude-desktop-arm-dqr.jpeg" alt="MCP server on Claude Desktop" width="500"/>
 
