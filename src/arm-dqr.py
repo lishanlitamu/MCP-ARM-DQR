@@ -1,10 +1,7 @@
 import requests
 import json
-from pathlib import Path
-import yaml
-from typing import Dict, List, Optional, Union
+from typing import Dict, Optional
 from mcp.server.fastmcp import FastMCP
-import os
 import sys
 
 # Initialize FastMCP server
@@ -60,9 +57,7 @@ async def query_dqr(
     except Exception as e:
         raise Exception(f"Error querying DQR API: {str(e)}")
 
-def main():
-    """Start the MCP server."""
-    mcp.run("stdio") 
 
 if __name__ == '__main__':
-    main()
+    """Start the MCP server."""
+    mcp.run("stdio") 
